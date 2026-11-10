@@ -119,3 +119,55 @@ padding-bottom: 7px;
     justify-content: space-between;
 }
 
+.card-section {
+    padding: 60px 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card-content a {
+    display: inline-block;
+    background-color: rgb(199, 26, 26);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
